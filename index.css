@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.main{width: 100vw; height: 100vh; padding: 20px;}
+.main h1{text-align: center; margin: 10px 0;}
+.box{display: flex; gap: 10px;}
+.box-item{flex: 33.33%;  border: 2px solid #ddd;}
+.box-item h2{float: right; padding: 5px 10px; border:  2px solid #ddd }
+.box-item p{clear: left; margin: 45px 15px 15px;}
+
+
+
+@media only screen and (max-width: 767px) {
+    .box{flex-wrap: wrap;}
+    .box-item{flex: 100%;}
+    } 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .box{flex-wrap: wrap;}
+        .item3{flex: 100%;}
+        } 
